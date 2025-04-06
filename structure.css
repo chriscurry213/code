@@ -1,0 +1,15 @@
+.navbar-fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #f6f6f6;
+    z-index: 999;
+    height: 90px;
+    overflow: hidden;
+    transition: height 0.3s;
+  }
+  
+  .navbar-fixed-top.cbp-af-header-shrink {
+    height: 75px;
+  }
