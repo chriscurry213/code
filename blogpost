@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <header>
+        <h1>Welcome to My Travel Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p> Hello, my name is Chris Neil, and I'm a travel enthusiast. I've been to many countries and
+                experienced diverse cultures. My goal is to share my adventures and inspire others to explore the world.Join me as I explore the world and share my travel experiences.</p>
+                <img src="https://photos.lensculture.com/large/2bc6dac0-c24e-4fd0-8540-b9f8982933e3.jpg" alt="Beautiful travel destination">
+            </section>
+
+
+        <section id="destinations">
+            <h2>Popular Destinations</h2>
+            <img src="https://media.cntraveler.com/photos/5539216cab60aad20f3f3aaa/4:3/w_935,h_701,c_limit/eiffel-tower-paris-secret-apartment.jpg" alt="Beautiful travel destination">
+            <p>its iconic status, breathtaking panoramic views of Paris, and its role as a symbol of both France and the city of Paris. It offers a unique experience with a spectacular ascent to multiple levels, including the top, where visitors can enjoy the most impressive 360° view of the city. </p>
+            <table>
+                <tr>
+                    <th>Destination</th>
+                    <th>Best Time to Visit</th>
+                    <th>Highlights</th>
+                </tr>
+                <tr>
+                    <td>Paris</td>
+                    <td>Spring</td>
+                    <td>Eiffel Tower, Museums, Cafés</td>
+                </tr>
+                <tr>
+                    <td>Tokyo</td>
+                    <td>Autumn</td>
+                    <td>Cherry Blossoms, Temples, Food</td>
+                    <img src="https://media.istockphoto.com/id/1283529752/photo/cherry-blossom-and-building-at-asakusa-sumida-park.jpg?s=612x612&w=0&k=20&c=KcJYcbUprfPjDL_jtShQ6m60Mkz5wedFcIDFIY50Hhw=" alt="Beautiful travel destination">
+                <p>Tokyo is truly a magical experience. Thousands of trees burst into bloom, dousing the streets with stunning shades of pink. The flowers are a national obsession and people flock to parks to hold hanami parties and picnics to view and photograph them</p>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+                
+                <label for="destination">Favorite Destination:</label>
+                <select id="destination" name="destination">
+                    <option value="paris">Paris</option>
+                    <option value="tokyo">Tokyo</option>
+                    <option value="bali">Bali</option>
+                </select><br>
+
+                
+                <label><input type="checkbox" name="subscribe"> Subscribe to Newsletter</label><br>
+
+                <button type="submit">Submit</button>
+                <p>I use <a href="https://www.google.com" target="_blank">Google Maps</a> for my research</p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Travel Blog</p>
+    </footer>
+
+</body>
+</html>
